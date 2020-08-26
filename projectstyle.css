@@ -31,7 +31,13 @@ text-transform:uppercase;
 nav {
   background-color: #000000;
 }
+
 /* Countdown */
+body{
+  background: url(bg1.png);
+  background-attachment: fixed;
+  background-blend-mode: lighten;
+}
 .container {
   position: absolute;
   top: 80px;
@@ -73,7 +79,7 @@ nav {
     line-height: 100px;
     text-align: center;
     background: #333;
-    color: orchid;
+    color: orange;
     margin: 0 15px;
     font-size: 3em;
     font-weight: 500;
@@ -88,7 +94,7 @@ nav {
   height: 50px;
   background: #ff0;
   color: #333;
-  font-size: 0.35em;
+  font-size: 20px;
   line-height: 35px;
   font-weight: 300;
 }
@@ -180,4 +186,6 @@ h1 {
   font-size: 20px;
   color:#FFFFFF;
 }
+
+
 
