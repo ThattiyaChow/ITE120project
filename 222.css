@@ -1,0 +1,221 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+#logo{
+  width: 350px;
+  height: 90px;
+  padding-top:10px;
+  padding-bottom:5px;
+}
+header{
+	background-color:#000;
+	position:flex;
+	top:0;
+	left:0;
+	width:100%;
+	align-items: right;
+	transition: 0.5s;
+}
+header ul{
+list-style-type:right;
+padding-top:35px;
+padding-bottom:15px;
+}
+header ul li{
+display:inline;
+}
+header ul li a{
+font-weight:bold;
+color:#FFFFFF;
+background-color:#000000;
+text-align:center;
+padding:50px;
+}
+button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+a:hover {
+  background:; color:red;
+}
+
+h1{
+	text-align:center;
+	color:#FFFFFF;
+}
+p{
+		color:#FFFFFF;
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 100px;
+}
+section .contentBx{
+    position: relative;
+    max-width: 600px;
+    z-index: 1000;
+}
+section .contentBx h2{
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+}
+section .contentBx p{
+    font-size: 18px;
+    color: #fff;
+    }
+section .contentBx .countdown
+    {
+        display: flex;
+        margin: 20px 0;
+    }
+section .contentBx .countdown .time{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #fff;
+        margin-right: 20px;
+        font-size: 48px;
+        min-width: 110px;
+        font-weight: 700;
+        padding: 10px 5px 15px;
+        border-radius: 4px;
+        color: red;
+    }
+section .contentBx .countdown .time span{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+section .contentBx a
+{
+ position: relative;
+ margin-top: 10px;
+ display: inline-block;
+ background: red;
+ color: #fff;
+ font-size: 20px;
+ letter-spacing: 2px;
+ padding: 15px 35px;
+ text-decoration: none;
+ border-radius: 40px;
+
+}
+
+ .ig {
+	    display: table;
+	    float: left;
+	    width: 20%; 
+	    text-align: center;
+	    line-height: 27px;
+	    color: blue;
+}
+.ig img {
+    width: 420px;
+    height: 300px;
+	padding:  35px;
+}
+
+.intro{
+   float:left;
+   width:50%
+}
+.form{
+	float:right;
+   width:50%
+}
+
+input{
+	padding: 15px;
+	margin: 20px;
+}
+input[type=submit]{
+	margin: 20px;
+    background:#f44336;
+	color:#ffffff;
+	border: none;
+}
+input[type = email2]{
+	padding: 10px;
+	margin: 100px;
+}
+input[type=send]{
+	margin: 10px;
+    background:#f44336;
+	color:#ffffff;
+	border: none;
+}
+  .clean{
+clear:both;
+}
+
+footer-area{
+	padding:280px 0 60px 0;
+	background:#fff;
+	color:#fff;
+}
+
+ h3{
+	font-weight:1000;
+	margin-bottom:10px;
+	color:#fff;
+}
+.single-footer1{	float:left;
+width:50%}
+		.single-footer2{float:right;
+   width:50%
+		}
+.link-area li{
+	padding:5px 5px 5px 0;
+	list-style:none;
+}
+.link-area li a{
+	color:#fff;
+}
+.copyright{
+	text-align:center;
+}
+
+.to-top {
+  background: red;
+  position: fixed;
+  bottom: 16px;
+  right:32px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32px;
+  color:#fff;
+  text-decoration: none;
+  opacity:0;
+  pointer-events: none;
+  transition: all .4s;
+}
+
+.to-top.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:1;
+}
+html{
+	scroll-behavior: smooth;
+}
