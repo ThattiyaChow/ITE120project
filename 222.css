@@ -1,0 +1,267 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+.inset {
+	border-style:inset;
+	}
+#game8{
+width:50%
+}
+#check{
+	color=white;
+}
+#check2{
+	color:red;
+}
+#logo{
+  width: 350px;
+  height: 90px;
+  padding-top:10px;
+  padding-bottom:5px;
+}
+#logo2{
+	 width: 350px;
+     height: 200px;
+}
+header{
+	background-color:black;
+	position:flex;
+	top:0;
+	left:0;
+	width:100%;
+	align-items: right;
+	transition: 0.5s;
+}
+header ul{
+list-style-type:right;
+padding-top:35px;
+padding-bottom:15px;
+}
+header ul li{
+display:inline;
+}
+header ul li a{
+font-weight:bold;
+color:#FFFFFF;
+background-color:#000000;
+text-align:center;
+padding:50px;
+}
+button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+a:hover {
+  background:; color:red;
+}
+
+h1{
+	text-align:center;
+	color:#FFFFFF;
+}
+h2{
+	text-align:center;
+	color:red;
+}
+p{
+		color:#FFFFFF;
+}
+
+section{
+    display:inline;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.pic{
+	float:right;
+	width:50%;
+}
+.form{
+   float:right;
+   width:50%
+}
+.contentBx h2{
+    font-size: 60px;
+    color: #fff;
+}
+
+ .countdown
+    {
+        display: flex;
+        margin: 20px 0;
+    }
+	
+ .time{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #fff;
+        margin-right: 20px;
+        font-size: 48px;
+        min-width: 100px;
+        padding: 10px 5px 15px;
+        border-radius: 4px;
+        color: red;
+}
+	 .time span{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+
+.video1,.video2,.video3 {
+	display: table;
+    float: left;
+    width: 420px;
+    height: 350px;  
+	padding:35px;
+}
+
+.holdingcontainer{
+      max-width: 100%;
+      display: flex;
+      background: black;
+      padding: 50px;
+      box-sizing: border-box;
+      flex-direction: row;
+    }
+
+    .internal{
+      flex: 1;
+      background: red;
+      padding: 30px;
+      font-size: 12px;
+      font-family: 'Roboto', sans-serif;
+      margin: 3px;
+    }
+
+
+      (max-width: 768px){
+      .holdingcontainer{
+        flex-direction: column-reverse;
+      }
+    }
+
+   #newt{
+	text-align:center;
+	}
+
+.intro{
+   float:left;
+   width:50%
+}
+.form{
+   float:right;
+   width:50%
+}
+#signup{
+float:right;
+margin-right:185px;
+}
+#label{
+	margin-left:20px;
+}
+input{
+	padding: 15px;
+	margin: 20px;
+}
+input[type=submit]{
+	margin: 20px;
+    background:#f44336;
+	color:#ffffff;
+	border: none;
+}
+
+  .clean{
+clear:both;
+}
+
+ h3{
+	font-weight:1000;
+	margin-bottom:10px;
+	color:#fff;
+}
+
+.to-top {
+  background: red;
+  position: fixed;
+  bottom: 16px;
+  right:32px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32px;
+  color:#fff;
+  text-decoration: none;
+  opacity:0;
+  pointer-events: none;
+  transition: all .4s;
+}
+
+.to-top.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:1;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+.footer-bottom{
+    background: rgb(1, 6, 14);
+    color: white;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    padding-top: 7.5px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.social {
+    border-left: 1.5px solid white;
+}
+
+.connect {
+    display: flex;
+    width: 100%;
+
+}
+
+new {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.connect {
+    display: flex;
+   
+
+}
+h3 {
+  text-align: center;
+}
+
+.icon{
+	text-align: center;
+}
