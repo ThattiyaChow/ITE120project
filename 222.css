@@ -48,6 +48,10 @@ nav ul li a:hover{
 
 .inset {
 	border-style:inset;
+	max-width:800px;
+	margin:0px 195px;
+	padding-left:35px;
+	padding-right:35px;
 	}
 #game8{
 width:50%
@@ -60,9 +64,16 @@ width:50%
 }
 
 }
-#logo2{
-	 width: 350px;
-     height: 200px;
+#button2{
+	    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
 }
 button {
     background-color: #f44336;
@@ -276,7 +287,10 @@ h1 {
 h3 {
   text-align: center;
 }
-
+#logo2{
+	 width: 350px;
+     height: 200px;
+}
 .icon{
 	text-align: center;
 }
