@@ -1,6 +1,6 @@
 *{
 	padding:0;
-	margin:0;
+	margin:0 auto;
 }
 nav{
   display: flex;
@@ -51,7 +51,6 @@ nav ul li a:hover{
 	max-width:800px;
 	margin: auto;
 	}
-
 #game8{
 width:50%
 }
@@ -146,34 +145,6 @@ section{
     font-weight: 600;
     color: black;
 }
-
-
-.video1,.video2,.video3 {
-    float: left;
-    width: 420px;
-    height: 350px;  
-	padding:35px;
-	margin: auto;
-}
-
-.holdingcontainer{
-      display: flex;
-      padding: 30px;
-    }
-
-    .internal{
-      flex: 1;
-      background: red;
-      padding: 30px;
-      font-size: 12px;
-      margin: 3px;
-    }
-
-
-   #newt{
-	text-align:center;
-	}
-
 .intro{
    float:left;
    width:50%
@@ -183,8 +154,7 @@ section{
    width:50%
 }
 #signup{
-float:right;
-margin-right:185px;
+float:left;
 }
 #label{
 	margin-left:20px;
@@ -256,7 +226,6 @@ html{
 .connect {
     display: flex;
     width: 100%;
-
 }
 
 new {
