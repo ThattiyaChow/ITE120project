@@ -153,6 +153,7 @@ section{
     width: 420px;
     height: 350px;  
 	padding:35px;
+	margin: auto;
 }
 
 .holdingcontainer{
