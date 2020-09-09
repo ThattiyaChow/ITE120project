@@ -53,7 +53,7 @@ nav ul li a:hover{
 	}
 
 #button2{
-	    background-color: #f44336;
+    background-color: #f44336;
     border: none;
     color: white;
     padding: 5px 30px;
@@ -90,39 +90,20 @@ p{
 		color:#FFFFFF;
 }
 
-section{
-    display:inline;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 100px;
-}
-
-.pic{
-	float:right;
-	width:50%;
-}
-.form{
-   float:right;
-   width:50%
-}
-.contentBx h2{
+#contentBx h2{
     font-size: 60px;
     color: #fff;
 }
-
  .countdown
     {
         display: flex;
-        margin: 20px 0;
     }
 	
  .time{
         display: flex;
-        justify-content: center;
         align-items: center;
         flex-direction: column;
         background: #fff;
-        margin-right: 20px;
         font-size: 48px;
         min-width: 100px;
         padding: 10px 5px 15px;
@@ -135,18 +116,7 @@ section{
     font-weight: 600;
     color: black;
 }
-.intro{
-   float:left;
-   width:50%
-}
-.form{
-   float:right;
-   width:50%
-}
-#signup{
-float:left;
-max-width:50%
-}
+
 input{
 	padding: 15px;
 	margin: 20px;
@@ -160,12 +130,6 @@ input[type=submit]{
 
   .clean{
 clear:both;
-}
-
- h3{
-	font-weight:1000;
-	margin-bottom:10px;
-	color:#fff;
 }
 
 .to-top {
@@ -197,43 +161,15 @@ html{
 }
 
 .footer-bottom{
-    background: rgb(1, 6, 14);
     color: white;
     height: 40px;
-    width: 100%;
     text-align: center;
-    padding-top: 7.5px;
-    bottom: 0px;
-    left: 0px;
 }
 
-.social {
-    border-left: 1.5px solid white;
-}
 
-.connect {
-    display: flex;
-    width: 100%;
-}
-
-new {
-  box-sizing: border-box;
-}
-
-#signup{
-	padding:45px;
-}
-h1 {
-  text-align: center;
-}
-
-.connect {
-    display: flex;
-   
-
-}
 h3 {
   text-align: center;
+  color:#fff;
 }
 #logo2{
 	 width: 350px;
