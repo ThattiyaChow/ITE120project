@@ -51,17 +51,7 @@ nav ul li a:hover{
 	max-width:800px;
 	margin: auto;
 	}
-#game8{
-width:50%
-}
-#check{
-	color=white;
-}
-#check2{
-	color:red;
-}
 
-}
 #button2{
 	    background-color: #f44336;
     border: none;
@@ -155,9 +145,7 @@ section{
 }
 #signup{
 float:left;
-}
-#label{
-	margin-left:20px;
+max-width:50%
 }
 input{
 	padding: 15px;
@@ -232,6 +220,9 @@ new {
   box-sizing: border-box;
 }
 
+#signup{
+	padding:45px;
+}
 h1 {
   text-align: center;
 }
