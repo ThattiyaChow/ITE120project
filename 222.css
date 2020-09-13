@@ -4,25 +4,22 @@
 }
 nav{
   display: flex;
-  height: 80px;
+  height: 120px;
   width: 100%;
   background: black;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-nav .logo{
-  color: #fff;
-  font-size: 35px;
-  font-weight: 600;
-}
+
 nav ul{
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  margin-top: 12px;
 }
 nav ul li{
-  margin: 0 8px;
+  margin: 0 10px;
 }
 nav ul li a{
   color: #f2f2f2;
@@ -37,11 +34,11 @@ nav ul li a{
 nav ul li a.active,
 nav ul li a:hover{
   color: #111;
-  background: red;
+  background:white;
 }
 #logo{
-  width: 350px;
-  height:80px;
+  width: 330px;
+  height:120px;
   float: left;
 }
 
@@ -73,9 +70,6 @@ button {
     display: inline-block;
     font-size: 15px;
     cursor: pointer;
-}
-a:hover {
-  background:red;
 }
 
 h1{
@@ -123,8 +117,8 @@ input{
 }
 input[type=submit]{
 	margin: 20px;
-    background:#f44336;
-	color:#ffffff;
+  background:#f44336;
+  color:white;
 	border: none;
 }
 
